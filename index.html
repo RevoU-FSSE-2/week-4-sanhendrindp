@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Created by: Sanhendrin Dwi Prasetya, last updates: Friday, 30 June 2023"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/S icon.png" type="image/icon type" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Sanhendrin D.P.</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header class="container-header">
+      <div class="header-image"></div>
+      <div class="header-sub-image">
+        <picture>
+          <source media="(max-width:500px)" srcset="hello-world-500px.png" />
+          <source media="(max-width:650px)" srcset="hello-world-650px.png" />
+          <source media="(max-width:800px)" srcset="hello-world-800px.png" />
+          <img
+            src="images/hello-world.png"
+            alt="Hello world is the best quote by every programmers"
+          />
+        </picture>
+      </div>
+      <!-- <div class="slider-wrapper">
+        <div class="slider">
+          <img
+            src="images/wallpaper-2.png"
+            id="slide-1"
+            alt="Eat, Sleep, Code, Repeat, programmer lifecycle"
+          />
+          <img
+            src="images/wallpaper1.png"
+            id="slide-2"
+            alt="While alive, eat, sleep, code, repeat, programmer lifecycle"
+          />
+        </div>
+        <div class="slider-nav">
+          <a href="#slide-1"></a>
+          <a href="#slide-2"></a>
+        </div>
+      </div> -->
+    </header>
+
+    <main>
+      <section id="about" class="about">
+        <div class="container">
+          <h2>About Me</h2>
+          <div class="about-container">
+            <div class="description">
+              <h3>Hi, i'm Sanhendrin Dwi Prasetya</h3>
+              <h4>Web Developer</h4>
+              <p>
+                I am an enthusiastic, self-motivated, reliable, responsible and
+                hard working person. I am a mature team worker and adaptable to
+                all challenging situations. I am able to work well both in a
+                team environment as well as using own initiative. I am able to
+                work well under pressure and adhere to strict deadlines.
+              </p>
+            </div>
+            <div class="photo">
+              <div class="masking">
+                <img
+                  src="images/me-second.png"
+                  width="300px"
+                  alt="profile-photo"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills">
+        <div class="container">
+          <div class="text-end">
+            <h2>My Skills</h2>
+          </div>
+          <div class="grid-container">
+            <div class="img-skill" id="skill-1">
+              <img src="images/skills/html-5.png" alt="HTML-5 skill" />
+            </div>
+            <div class="img-skill" id="skill-2">
+              <img src="images/skills/css.png" alt="CSS skill" />
+            </div>
+            <div class="img-skill" id="skill-3">
+              <img src="images/skills/js.png" alt="Javascript skill" />
+            </div>
+            <div class="img-skill" id="skill-4">
+              <img src="images/skills/git.png" alt="Git skill" />
+            </div>
+            <div class="img-skill" id="skill-5">
+              <img
+                src="images/skills/Tailwind-CSS.png"
+                alt="Tailwind-CSS skill"
+              />
+            </div>
+            <div class="img-skill" id="skill-6">
+              <img src="images/skills/nodejs.png" alt="NodeJS skill" />
+            </div>
+            <div class="img-skill" id="skill-7">
+              <img src="images/skills/reactjs.png" alt="ReactJS skill" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="text-center">
+            <h2>Contact Me</h2>
+          </div>
+          <div class="form-container">
+            <form action="">
+              <h3>Need my help?</h3>
+              <p>You can fill the form below.</p>
+              <input type="text" id="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required
+              />
+              <input
+                type="number"
+                id="phone"
+                placeholder="Phone no."
+                required
+              />
+              <input type="date" id="date" />
+              <textarea
+                id="message"
+                rows="4"
+                placeholder="How i can help you?"
+              ></textarea>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <h2>Follow me on:</h2>
+        <div class="social">
+          <a href="https://www.facebook.com/" aria-label="Facebook"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://twitter.com/home?lang=en" aria-label="Twitter"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/" aria-label="Instagram"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://www.linkedin.com/" aria-label="LinkedIn"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://discord.com/" aria-label="Discord"
+            ><i class="fa-brands fa-discord"></i
+          ></a>
+        </div>
+        <div class="footer-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copyrights">
+        <p>&#169;2023 SanhendrinDP. All Right Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
