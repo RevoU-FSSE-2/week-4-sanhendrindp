@@ -29,41 +29,34 @@
       </ul>
     </nav>
 
-    <header class="container-header">
-      <div class="header-image"></div>
-      <div class="header-sub-image">
-        <picture>
-          <source media="(max-width:500px)" srcset="hello-world-500px.png" />
-          <source media="(max-width:650px)" srcset="hello-world-650px.png" />
-          <source media="(max-width:800px)" srcset="hello-world-800px.png" />
-          <img
-            src="images/hello-world.png"
-            alt="Hello world is the best quote by every programmers"
-          />
-        </picture>
-      </div>
-      <!-- <div class="slider-wrapper">
-        <div class="slider">
-          <img
-            src="images/wallpaper-2.png"
-            id="slide-1"
-            alt="Eat, Sleep, Code, Repeat, programmer lifecycle"
-          />
-          <img
-            src="images/wallpaper1.png"
-            id="slide-2"
-            alt="While alive, eat, sleep, code, repeat, programmer lifecycle"
-          />
+    <header>
+      <section class="introduction">
+        <div class="container">
+          <div class="intro-container">
+            <div class="description">
+              <h1>Hi, i'm Hendrin</h1>
+              <h3>Web Developer</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Obcaecati, itaque dolore laboriosam eos ullam tenetur.
+              </p>
+            </div>
+            <div class="photo">
+              <div class="masking">
+                <img
+                  src="images/me-second.png"
+                  width="300px"
+                  alt="profile-photo"
+                />
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="slider-nav">
-          <a href="#slide-1"></a>
-          <a href="#slide-2"></a>
-        </div>
-      </div> -->
+      </section>
     </header>
 
     <main>
-      <section id="about" class="about">
+      <!-- <section id="about" class="about">
         <div class="container">
           <h2>About Me</h2>
           <div class="about-container">
@@ -89,11 +82,11 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <section id="skills" class="skills">
         <div class="container">
-          <div class="text-end">
+          <div class="text-center">
             <h2>My Skills</h2>
           </div>
           <div class="grid-container">
@@ -147,7 +140,6 @@
                 placeholder="Phone no."
                 required
               />
-              <input type="date" id="date" />
               <textarea
                 id="message"
                 rows="4"
