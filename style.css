@@ -66,8 +66,12 @@ img {
 
 .description h3 {
   font-size: 30px;
-  color: rgb(255, 255, 68);
+  color: white;
   padding: 15px 0 15px;
+}
+
+.description h3 span {
+  color: rgb(255, 255, 68);
 }
 
 .intro-container {
