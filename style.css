@@ -117,6 +117,10 @@ img {
   }
 }
 /* MAIN - ABOUT */
+.about {
+  padding-top: 20px;
+}
+
 .about h2 {
   font-size: 30px;
   margin-bottom: 50px;
@@ -135,12 +139,16 @@ img {
   border-radius: 50%;
 }
 
-.about .description {
+.about-description {
   text-align: justify;
   /* line-height: 1.5em; */
 }
 
 /* MAIN - SKILLS */
+.skills {
+  padding-top: 20px;
+}
+
 .skills img {
   display: block;
   width: 100%;
@@ -192,6 +200,10 @@ img {
 }
 
 /* MAIN - CONTACT */
+.contact {
+  padding-top: 20px;
+}
+
 .contact h2 {
   font-size: 30px;
   margin-bottom: 50px;
