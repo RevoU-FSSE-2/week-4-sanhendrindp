@@ -8,7 +8,7 @@ submitForm.addEventListener("click", function () {
 
 // TYPED JS
 const typed = new Typed(".multiple-text", {
-  strings: ["Freelancer", "Web Developer", "Gamer"],
+  strings: ["Freelancer", "Web Developer"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
