@@ -85,6 +85,34 @@ img {
   text-align: left;
 }
 
+.description .animated-color {
+  color: transparent;
+  background-image: linear-gradient(
+    to left,
+    #fc0f0f,
+    #36baee,
+    #fbff10,
+    #7670ca
+  );
+  -webkit-background-clip: text;
+  -webkit-background-size: 500%;
+  animation: colorChanges 5s linear infinite;
+}
+
+@keyframes colorChanges {
+  0% {
+    background-position: 0 100%;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+
+  100% {
+    background-position: 0 100%;
+  }
+}
+
 .intro-photo {
   flex: 1 1 35rem;
   display: flex;
