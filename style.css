@@ -85,23 +85,23 @@ img {
   text-align: left;
 }
 
-.photo {
+.intro-photo {
   flex: 1 1 35rem;
   display: flex;
   justify-content: end;
 }
 
-.photo .masking {
+.intro-photo .masking {
   -webkit-mask-image: url(images/brush-stroke.png);
   -webkit-mask-size: 180%;
   -webkit-mask-position: 50% 50%;
 }
 
-.photo .masking img {
+.intro-photo .masking img {
   animation: floatImage 4s ease-in-out infinite;
 }
 
-.photo .masking img {
+.intro-photo .masking img {
   animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -115,6 +115,29 @@ img {
   100% {
     transform: translateY(0);
   }
+}
+/* MAIN - ABOUT */
+.about h2 {
+  font-size: 30px;
+  margin-bottom: 50px;
+  border-bottom: 2px solid rgb(255, 255, 68);
+  display: inline-block;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
+}
+
+.about-photo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.about-photo img {
+  border-radius: 50%;
+}
+
+.about .description {
+  text-align: justify;
+  /* line-height: 1.5em; */
 }
 
 /* MAIN - SKILLS */
@@ -382,7 +405,7 @@ footer h2 {
     /* padding: 15px 0 15px; */
   }
 
-  .photo img {
+  .intro-photo img {
     width: 200px;
   }
 }
