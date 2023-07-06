@@ -20,8 +20,8 @@ const sendEmail = function () {
   Email.send({
     Host: "smtp.elasticemail.com",
     Username: "fortesting2498@gmail.com",
-    Password: "fortesting12345",
-    To: "fortesting2498@gmail.com",
+    Password: "1F4F6E094B3027735B72470A05491F3901C2",
+    To: "leystriit98@gmail.com",
     From: document.getElementById("email").value,
     Subject: "This is the subject",
     Body:
@@ -33,5 +33,5 @@ const sendEmail = function () {
       document.getElementById("phone").value +
       "<br> Message: " +
       document.getElementById("message").value,
-  }).then((message) => alert("Message sent succesfully!"));
+  }).then((message) => alert(message));
 };

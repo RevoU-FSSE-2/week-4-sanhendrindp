@@ -135,6 +135,7 @@ img {
 
 .about-photo img {
   border-radius: 50%;
+  box-shadow: 2px 5px 15px #000;
 }
 
 .about-description {
