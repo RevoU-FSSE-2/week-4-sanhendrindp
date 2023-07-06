@@ -131,7 +131,7 @@
             <h2>Contact Me</h2>
           </div>
           <div class="form-container">
-            <form action="">
+            <form onsubmit="sendEmail(); reset(); return false;">
               <h3>Need my help?</h3>
               <p>You can fill the form below.</p>
               <input type="text" id="name" placeholder="Your Name" required />
@@ -193,8 +193,11 @@
       </div>
     </footer>
 
-    <!-- script -->
+    <!-- typedjs script -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- smtpjs script -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- custom script -->
     <script src="script.js"></script>
   </body>
 </html>
