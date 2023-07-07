@@ -144,3 +144,15 @@ Cloudflare is a large network of servers that can improve the security, performa
 
 3. Netlify checking to DNS, and your custom domain is ready.
    <img src="images/markdown/22.PNG" alt="custom domain">
+
+---
+
+<p align="center">Thanks! 🙏</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7" alt="custom domain">
+
+<img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white" alt="custom domain">
+
+<img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="custom domain">
+</p>
