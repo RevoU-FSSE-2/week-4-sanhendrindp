@@ -17,7 +17,9 @@
  <h5 align="center">Website Link</h5>
 
 <p align="center">
-<a href="sanhendrindwip.netlify.app">sanhendrindwip.netlify.app</a>
-<a href="sanhendrindp.site">sanhendrindp.site</a>
-<a href="www.sanhendrindp.site">www.sanhendrindp.site</a>
+<a href="https://sanhendrindwip.netlify.app/">sanhendrindwip.netlify.app</a>
+·
+<a href="https://sanhendrindp.site/">sanhendrindp.site</a>
+·
+<a href="https://sanhendrindp.site/">www.sanhendrindp.site</a>
 </p>
