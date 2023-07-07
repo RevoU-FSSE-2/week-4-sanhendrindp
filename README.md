@@ -28,8 +28,8 @@
 
 In this week 4 assignment, I made a documentation that informed about the deployment process using Netlify, buying a .site domain using Niagahoster, and then custom domains using Cloudflare.
 
-<p align="justify">
-  <img src="images/markdown/netlify.png"  alt="netlify">
-  <img src="images/markdown/niagahoster.png"  alt="niagahoster">
-  <img src="images/markdown/cloudflare.png"  alt="cloudflare">
+<p align="center">
+  <img src="images/markdown/netlify.png" width="300" alt="netlify">
+  <img src="images/markdown/niagahoster.png" width="300" alt="niagahoster">
+  <img src="images/markdown/cloudflare.png" width="300" alt="cloudflare">
 </p>
