@@ -345,6 +345,9 @@ footer h2 {
 
   .description {
     order: 1;
+  }
+
+  .description p {
     text-align: justify;
   }
 
