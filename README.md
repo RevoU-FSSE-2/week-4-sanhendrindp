@@ -1,4 +1,4 @@
-![Banner](images/markdown/Banner%20GitHub.png)
+![Banner](images/markdown/Banner%20GitHubv1.2.png)
 
 <p align="center">
   <a href="https://github.com/EddieHubCommunity" target="_blank" rel="noopener noreferrer">
@@ -27,3 +27,9 @@
 # Introduction
 
 In this week 4 assignment, I made a documentation that informed about the deployment process using Netlify, buying a .site domain using Niagahoster, and then custom domains using Cloudflare.
+
+<p align="center">
+  <img src="images/markdown/netlify.png" width="200" alt="netlify">
+  <img src="images/markdown/niagahoster.png" width="200" alt="niagahoster">
+  <img src="images/markdown/cloudflare.png" width="200" alt="cloudflare">
+</p>
