@@ -33,3 +33,11 @@ In this week 4 assignment, I made a documentation that informed about the deploy
   <img src="images/markdown/niagahoster.png" width="300" alt="niagahoster">
   <img src="images/markdown/cloudflare.png" width="300" alt="cloudflare">
 </p>
+
+# Netlify
+
+### What is Netlify?
+
+Netlify is the platform developers love for building highly-performant and dynamic websites, e-commerce stores and web applications. By uniting an extensive ecosystem of technologies, services and APIs into one workflow, Netlify unlocks new levels of team productivity, while saving time and money.
+
+### Website deployment & web server using Netlify
