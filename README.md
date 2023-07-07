@@ -41,3 +41,6 @@ In this week 4 assignment, I made a documentation that informed about the deploy
 Netlify is the platform developers love for building highly-performant and dynamic websites, e-commerce stores and web applications. By uniting an extensive ecosystem of technologies, services and APIs into one workflow, Netlify unlocks new levels of team productivity, while saving time and money.
 
 ### Website deployment & web server using Netlify
+
+1. Go to <a href="https://sanhendrindwip.netlify.app/">netlify.com</a> and log in or sign up if you don't have an account yet.
+   <img src="images/markdown/1.PNG" align="center" alt="netlify">
