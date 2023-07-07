@@ -24,6 +24,21 @@
 <a href="https://sanhendrindp.site/">www.sanhendrindp.site</a>
 </p>
 
+# List of Contents
+
+- [Introduction](#introduction)
+- [Netlify](#netlify)
+  - [What is Netlify ?](#what-is-netlify)
+  - [Webite deployment & web server using Nelify](#website-deployment--web-server-using-netlify)
+  - [Configure website name in Netlify](#configure-website-name-in-netlify)
+- [Niagahoster](#niagahoster)
+  - [What is Niagahoster ?](#what-is-niagahoster)
+  - [Buy a domain in Niagahoster](#buy-a-domain-in-niagahoster)
+- [Cloudflare](#cloudflare)
+  - [What is Cloudflare ?](#what-is-cloudflare)
+  - [DNS management with Cloudflare](#dns-management-with-cloudflare)
+  - [Setup a custom Domain](#setup-a-custom-domain)
+
 # Introduction
 
 In this week 4 assignment, I made a documentation that informed about the deployment process using **Netlify**, buying a domain (.site) using **Niagahoster**, and then custom domains using **Cloudflare**.
@@ -36,7 +51,7 @@ In this week 4 assignment, I made a documentation that informed about the deploy
 
 # Netlify
 
-### What is Netlify?
+### What is Netlify ?
 
 Netlify is the platform developers love for building highly-performant and dynamic websites, e-commerce stores and web applications. By uniting an extensive ecosystem of technologies, services and APIs into one workflow, Netlify unlocks new levels of team productivity, while saving time and money.
 
@@ -70,7 +85,7 @@ Netlify is the platform developers love for building highly-performant and dynam
 
 # Niagahoster
 
-### What is Niagahoster?
+### What is Niagahoster ?
 
 Niagahoster is a hosting company that provides web hosting service based in Yogyakarta, Indonesia. Apart from hosting and domains, Niagahoster also provides various complementary services such as website creation services, cheap SSL, and email hosting.
 
@@ -92,6 +107,8 @@ Niagahoster is a hosting company that provides web hosting service based in Yogy
    <img src="images/markdown/13.PNG" alt="niagahoster">
 
 # Cloudflare
+
+### What is Cloudflare ?
 
 Cloudflare is a large network of servers that can improve the security, performance, and reliability of anything connected to the Internet. Cloudflare does this by serving as a reverse proxy Open external link for your web traffic.
 
@@ -118,7 +135,7 @@ Cloudflare is a large network of servers that can improve the security, performa
 7. After domain is activate, go to **DNS**, **Records**, you must add CNAME with Netlify link using **add record**.
    <img src="images/markdown/20.PNG" alt="cloudflare">
 
-## Setup a custom Domain
+### Setup a custom Domain
 
 1. Go to **Netlify**, choose your site that you already deploy before. Choose **Domain settings**, on **Production domains** choose **Add a domain**.
 
