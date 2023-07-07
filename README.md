@@ -26,7 +26,7 @@
 
 # Introduction
 
-In this week 4 assignment, I made a documentation that informed about the deployment process using Netlify, buying a .site domain using Niagahoster, and then custom domains using Cloudflare.
+In this week 4 assignment, I made a documentation that informed about the deployment process using **Netlify**, buying a domain (.site) using **Niagahoster**, and then custom domains using **Cloudflare**.
 
 <p align="center">
   <img src="images/markdown/netlify.png" width="300" alt="netlify">
