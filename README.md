@@ -23,3 +23,7 @@
 ·
 <a href="https://sanhendrindp.site/">www.sanhendrindp.site</a>
 </p>
+
+# Introduction
+
+In this week 4 assignment, I made a documentation that informed about the deployment process using Netlify, buying a .site domain using Niagahoster, and then custom domains using Cloudflare.
