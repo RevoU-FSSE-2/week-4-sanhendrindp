@@ -42,8 +42,39 @@ Netlify is the platform developers love for building highly-performant and dynam
 
 ### Website deployment & web server using Netlify
 
-1. Go to <a href="https://sanhendrindwip.netlify.app/">netlify.com</a> and log in or sign up if you don't have an account yet.
+1. Go to <a href="https://www.netlify.com/">netlify.com</a> and log in or sign up if you don't have an account yet.
    <img src="images/markdown/1.PNG" align="center" alt="netlify">
 
 2. After you log in, **Add new site** then choose you can choose your method to import your project. In this case, choose **Import an existing project**.
    <img src="images/markdown/2.PNG" alt="netlify">
+
+3. Choose **GitHub** provider for your project. Make sure your project is available in your github repository.
+   <img src="images/markdown/3.PNG" alt="netlify">
+
+4. Choose the repository of your project that you want deploy.
+   <img src="images/markdown/4.PNG" alt="netlify">
+
+5. Choose your branch that you want to make it deploy, and then **Deploy site**.
+   <img src="images/markdown/5.PNG" alt="netlify">
+
+6. Your website has been successfully deployed.
+   <img src="images/markdown/6.PNG" alt="netlify">
+
+### Configure website name in Netlify
+
+1. To change your site name, choose **Domain settings**, in Production domains, choose **options**, then **Edit name site**.
+   <img src="images/markdown/7.PNG" alt="netlify">
+
+2. Change your website name to a name you like, then **Save**.
+   <img src="images/markdown/8.PNG" alt="netlify">
+
+# Niagahoster
+
+### What is Niagahoster?
+
+Niagahoster is a hosting company that provides web hosting service based in Yogyakarta, Indonesia. Apart from hosting and domains, Niagahoster also provides various complementary services such as website creation services, cheap SSL, and email hosting.
+
+### Buy a domain in Niagahoster
+
+1. Go to <a href="https://www.niagahoster.co.id/">niagahoster.co.id</a> sign up to create an account.
+   <img src="images/markdown/9.PNG" alt="niagahoster">
