@@ -76,5 +76,54 @@ Niagahoster is a hosting company that provides web hosting service based in Yogy
 
 ### Buy a domain in Niagahoster
 
-1. Go to <a href="https://www.niagahoster.co.id/">niagahoster.co.id</a> sign up to create an account.
+1. Go to <a href="https://www.niagahoster.co.id/">niagahoster.co.id</a> and sign up to create an account.
    <img src="images/markdown/9.PNG" alt="niagahoster">
+
+2. Search and check your domain name that you want. In this case i choose **.site** as my domain.
+   <img src="images/markdown/10.PNG" alt="niagahoster">
+
+3. If your domain name avaliable, you only need to choose the duration of the service and make a payment.
+   <img src="images/markdown/11.PNG" alt="niagahoster">
+
+4. Checkout your domain name with your favorite payment method.
+   <img src="images/markdown/12.PNG" alt="niagahoster">
+
+5. After your payment complete, you can check your domain name at **Member Area**. wait until the service status is active.
+   <img src="images/markdown/13.PNG" alt="niagahoster">
+
+# Cloudflare
+
+Cloudflare is a large network of servers that can improve the security, performance, and reliability of anything connected to the Internet. Cloudflare does this by serving as a reverse proxy Open external link for your web traffic.
+
+### DNS management with Cloudflare
+
+1. Go to <a href="https://www.cloudflare.com/en-gb/">cloudflare.com</a> and sign up to create an account.
+   <img src="images/markdown/14.PNG" alt="cloudflare">
+
+2. After sign up, go to Dashboard to **Add site**.
+   <img src="images/markdown/15.PNG" alt="cloudflare">
+
+3. Choose Cloudflare Plan to **Free Plan**, then Continue.
+   <img src="images/markdown/16.PNG" alt="cloudflare">
+
+4. Next step, you must delete the two nameservers currently in use on Niagahoster, then replace it with the new nameserver provided by Cloudflare.
+   <img src="images/markdown/17.PNG" alt="cloudflare">
+
+5. Go to **Niagahoster Member Area**, **Your Domain**, **Name Server**, then replace them with the new nameservers provided by Cloudflare.
+   <img src="images/markdown/18.PNG" alt="cloudflare">
+
+6. Access your Cloudflare page again and check nameservers. Wait until your nameservers is active.
+   <img src="images/markdown/19.PNG" alt="cloudflare">
+
+7. After domain is activate, go to **DNS**, **Records**, you must add CNAME with Netlify link using **add record**.
+   <img src="images/markdown/20.PNG" alt="cloudflare">
+
+## Setup a custom Domain
+
+1. Go to **Netlify**, choose your site that you already deploy before. Choose **Domain settings**, on **Production domains** choose **Add a domain**.
+
+2. Add Custom Domain that you already setup on Cloudflare, then click **Verify**, then **Add domain**.
+   <img src="images/markdown/21.PNG" width="400" alt="custom domain">
+
+3. Netlify checking to DNS, and your custom domain is ready.
+   <img src="images/markdown/22.PNG" alt="custom domain">
