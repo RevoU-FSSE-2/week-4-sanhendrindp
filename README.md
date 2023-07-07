@@ -44,3 +44,6 @@ Netlify is the platform developers love for building highly-performant and dynam
 
 1. Go to <a href="https://sanhendrindwip.netlify.app/">netlify.com</a> and log in or sign up if you don't have an account yet.
    <img src="images/markdown/1.PNG" align="center" alt="netlify">
+
+2. After you log in, **Add new site** then choose you can choose your method to import your project. In this case, choose **Import an existing project**.
+   <img src="images/markdown/2.PNG" alt="netlify">
