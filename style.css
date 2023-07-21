@@ -254,7 +254,7 @@ form textarea {
   font-size: 15px;
 }
 
-form button {
+form #submit {
   padding: 15px;
   background-color: rgb(255, 255, 68);
   font-size: 18px;
@@ -266,7 +266,7 @@ form button {
   border-radius: 20px;
 }
 
-form button:hover {
+form #submit:hover {
   background-color: #34495e;
   color: white;
 }
@@ -402,7 +402,7 @@ footer h2 {
     padding: 20px;
   }
 
-  form button {
+  form #submit {
     width: 120px;
     margin: 10px auto 10px;
     border-radius: 20px;

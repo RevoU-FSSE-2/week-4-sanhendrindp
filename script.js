@@ -1,11 +1,5 @@
 "use strict";
 
-// const submitForm = document.querySelector("button");
-
-// submitForm.addEventListener("click", function () {
-//   alert("UNDER CONSTRUCTION... 🚧👷‍♂️, waiting for next week.");
-// });
-
 // TYPED JS
 const typed = new Typed(".multiple-text", {
   strings: ["Freelancer", "Web Developer"],
@@ -16,22 +10,31 @@ const typed = new Typed(".multiple-text", {
 });
 
 // SMTP JS
-const sendEmail = function () {
+const fullName = document.getElementById("name");
+const email = document.getElementById("email");
+const phone = document.getElementById("phone");
+const message = document.getElementById("message");
+const submit = document.getElementsByClassName("form-contact")[0];
+
+submit.addEventListener("submit", (e) => {
+  e.preventDefault();
+  console.log("clicked");
+
+  let bodyEmail = `
+  <b>Name: </b>${fullName.value}
+  <br>
+  <b>Email: </b>${email.value}
+  <br>
+  <b>Phone no: </b>${phone.value}
+  <br>
+  <b>Message: </b>${message.value}
+  `;
+
   Email.send({
-    Host: "smtp.elasticemail.com",
-    Username: "fortesting2498@gmail.com",
-    Password: "1F4F6E094B3027735B72470A05491F3901C2",
-    To: "leystriit98@gmail.com",
-    From: document.getElementById("email").value,
-    Subject: "This is the subject",
-    Body:
-      "Name: " +
-      document.getElementById("name").value +
-      "<br> Email: " +
-      document.getElementById("email").value +
-      "<br> Phone no: " +
-      document.getElementById("phone").value +
-      "<br> Message: " +
-      document.getElementById("message").value,
+    SecureToken: "0729a384-ce78-45b9-a26a-0487d93b18f1",
+    To: "fortesting2498@gmail.com",
+    From: "fortesting2498@gmail.com",
+    Subject: "Form contact from sanhendrindp site",
+    Body: bodyEmail,
   }).then((message) => alert(message));
-};
+});
