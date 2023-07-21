@@ -31,7 +31,7 @@ submit.addEventListener("submit", (e) => {
   `;
 
   Email.send({
-    SecureToken: "0729a384-ce78-45b9-a26a-0487d93b18f1",
+    SecureToken: "d66d6f2d-b5ea-4623-9d9b-7db6d5a8eca7",
     To: "fortesting2498@gmail.com",
     From: "fortesting2498@gmail.com",
     Subject: "Form contact from sanhendrindp site",
